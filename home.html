@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <script src="webScript.js"></script>
     <link rel="stylesheet" href="styling.css">
 
     <title>Recipe Website Placeholder</title>
@@ -14,23 +15,29 @@
 
 <body>
 
-    <div class="-contaioner">
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
-        <section id="navBar">
-            <div class="topnav">
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">Recipe Book</a>
-                <a href="about">About</a>
-            </div>
-        </section>
+    <div id="Home" class="tabcontent" style="display:block">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+    </div>
 
-        <section id="titleSec" class="titleSec">
+    <div id="News" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
 
-            <h1> Title Placeholder</h1>
-            <p> Placeholder</p>
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
 
-        </section>
-
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
     </div>
 
 </body>

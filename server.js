@@ -11,6 +11,10 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/about.html'));
 });
 
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname + '/webScript.js'));
+});
+
 app.get('/styling.css', function (req, res) {
     res.sendFile(path.join(__dirname + '/styling.css'));
 });
