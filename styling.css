@@ -1,0 +1,29 @@
+﻿/*body{
+    background-color: lightcyan;
+}*/
+
+
+/*PAGE TITLE*/
+.titleSec {
+    align-content: center;
+    height: 30vh;
+    width: 100%;
+    background-color: #f7f1c4
+}
+
+
+/*NAV BAR*/
+.topnav {
+    background-color: #b6ff00
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
