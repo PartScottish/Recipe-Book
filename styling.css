@@ -1,14 +1,14 @@
-﻿/* Set height of body and the document to 100% to enable "full page tabs" */
+﻿/*General Page Settings*/
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial;
+    font-family: Helvetica;
 }
 
-/* Style tab links */
+/* Top Tab Links*/
 .tablink {
-    background-color: #555;
-    color: white;
+    background-color: #cecece;
+    color: black;
     float: left;
     border: none;
     outline: none;
@@ -18,9 +18,15 @@ body, html {
     width: 25%;
 }
 
-    .tablink:hover {
-        background-color: #777;
-    }
+.tablink:hover {
+    background-color: #c8f7df;
+    color: black;
+}
+
+.tablink:active {
+    background-color: #c8f7df;
+    color: black;
+}
 
 /* tabcontent is the page body(s) */
 .tabcontent {

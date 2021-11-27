@@ -15,10 +15,12 @@
 
 <body>
 
-    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+    <div id="tabButtons">
+        <button class="tablink" onclick="openPage('Home', this, '#c8f7df')">Home</button>
+        <button class="tablink" onclick="openPage('News', this, '#c8f7df')">Recipe Book</button>
+        <button class="tablink" onclick="openPage('Contact', this, '#c8f7df')">Shopping List</button>
+        <button class="tablink" onclick="openPage('About', this, '#c8f7df')">What Is This?</button>
+    </div>
 
     <div id="Home" class="tabcontent" style="display:block">
         <h3>Home</h3>
