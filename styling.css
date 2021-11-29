@@ -222,9 +222,11 @@ section {
 
 /*HOME BEGINS HERE*/
 .home {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 /*  background: url(../images/home-img.jpeg) no-repeat;
     background-size: cover;
     background-position: center;*/
@@ -248,3 +250,40 @@ section {
             color: #53424C;
         }
 /*HOME ENDS HERE*/
+
+
+
+/*ABOUT BEGINS HERE*/
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+    border-top: var(--border);
+}
+
+    .about .row .image {
+        flex: 1 1 45rem;
+    }
+
+        .about .row .image img {
+            width: 100%;
+        }
+
+    .about .row .content {
+        flex: 1 1 45rem;
+        padding: 2rem;
+    }
+
+        .about .row .content h3 {
+            font-size: 5rem;
+            color: #fff;
+        }
+
+        .about .row .content p {
+            font-size: 1.6rem;
+            color: #ccc;
+            padding: 1rem 0;
+            line-height: 1.8;
+        }
+/*ABOUTY ENDS HERE*/
