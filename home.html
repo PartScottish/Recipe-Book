@@ -4,6 +4,8 @@
 
 
 <head>
+
+
     <meta charset="utf-8" />
     <script src="webScript.js"></script>
     <link rel="stylesheet" href="styling.css">
@@ -13,44 +15,57 @@
 </head>
 
 
+
+
+
+
+
 <body>
 
-    <div id="tabButtons">
-        <button class="tablink" onclick="openPage('Home', this, '#c8f7df')">Home</button>
-        <button class="tablink" onclick="openPage('News', this, '#c8f7df')">Recipe Book</button>
-        <button class="tablink" onclick="openPage('Contact', this, '#c8f7df')">Shopping List</button>
-        <button class="tablink" onclick="openPage('About', this, '#c8f7df')">What Is This?</button>
-    </div>
+    <!--Header Starts-->
 
-    <div id="Home" class="tabcontent" style="display:block">
-        <h3>Home</h3>
-        <p>Come up with some home page stuff</p>
-    </div>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logoPlaceHolder.jpg" alt="Have Beth Make One!" />
+        </a>
+    </header>
 
-    <div id="News" class="tabcontent">
-        <h3>Recipe Book</h3>
-        <p>Browse you recipe book and add to it!</p>
+    <nav class="navbar">
+        <a href="home">home</a>
+        <a href="about">about</a>
+        <a href="recipes">recipes</a>
+        <a href="shopping list">shopping list</a>
+        <a href="contact">contact</a>
+    </nav>
 
-        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="search your recipes" title="Type in a recipe">
-        <ul id="myMenu">
-            <li><a href="#">Recipe Example 1</a></li>
-            <li><a href="#">Recipe Example 2</a></li>
-        </ul>
-    </div>
+    <!--<div class="icons">
+        <div class="fas fa-search" id="search-btn">
+             ^this is something that needs fixing
+    </div>-->
 
-    <div id="Contact" class="tabcontent">
-        <h3>Contact</h3>
-        <p>Create your next shopping list here, using your Recipe Book.</p>
-    </div>
 
-    <div id="About" class="tabcontent">
-        <h3>About</h3>
-        <p>Get in touch</p>
-        <p>Email: m**********s@gmail.com</p>
-        <p>Git: <a href="https://github.com/PartScottish" target="_blank" rel="noopener noreferrer">PartScottish</a></p>
-    </div>
+
+    <!--Header Ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
+
+
 
 
 </html>
