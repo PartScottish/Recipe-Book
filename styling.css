@@ -2,9 +2,9 @@
 
 :root {
     --main-color: #DFBBC8;
-    --black: #13131a;
+    --black: #334B49;
     --bg: #F4FFFE;
-    --border: .1rem solid rgba(255,255,255,.3);
+    --border: .1rem solid #53424C;
 }
 
 * {
@@ -47,6 +47,9 @@ section {
     padding: 2rem 7%;
 }
 
+
+
+/*HEADER BEGINS HERE*/
 .heading {
     text-align: center;
     color: #53424C;
@@ -155,12 +158,13 @@ section {
         .header .search-form label:hover {
             color: var(--main-color);
         }
-*/
 
 
 
+
+/*FOOTER BEGINS HERE*/
 .footer {
-    background: var(--black);
+    background: var(--bg);
     text-align: center;
 }
 
@@ -212,3 +216,5 @@ section {
     .footer .credit span {
         color: var(--main-color);
     }
+
+
