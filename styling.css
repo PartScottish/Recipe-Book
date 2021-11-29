@@ -158,7 +158,7 @@ section {
         .header .search-form label:hover {
             color: var(--main-color);
         }
-
+/*HEADER ENDS HERE*/
 
 
 
@@ -185,7 +185,7 @@ section {
 
         .footer .share a:hover {
             background-color: var(--main-color);
-        }
+        } 
 
 .footer .links {
     display: flex;
@@ -216,5 +216,35 @@ section {
     .footer .credit span {
         color: var(--main-color);
     }
+/*FOOTER ENDS HERE*/
 
 
+
+/*HOME BEGINS HERE*/
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+/*  background: url(../images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+
+    .home .content {
+        max-width: 60rem;
+    }
+
+        .home .content h3 {
+            font-size: 6rem;
+            text-transform: uppercase;
+            color: #7A5362;
+        }
+
+        .home .content p {
+            font-size: 2rem;
+            font-weight: lighter;
+            line-height: 1.8;
+            padding: 1rem 0;
+            color: #53424C;
+        }
+/*HOME ENDS HERE*/
