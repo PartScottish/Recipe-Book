@@ -7,9 +7,9 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/home.html'));
 });
 
-app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/about.html'));
-});
+//app.get('/', function (req, res) {
+//    res.sendFile(path.join(__dirname + '/about.html'));
+//});
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/webScript.js'));
