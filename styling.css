@@ -378,7 +378,7 @@ section {
             .blogs .box-container .box .content .title {
                 font-size: 2.5rem;
                 line-height: 1.5;
-                color: #fff;
+                color: #53424C;
             }
 
                 .blogs .box-container .box .content .title:hover {
@@ -395,7 +395,7 @@ section {
             .blogs .box-container .box .content p {
                 font-size: 1.6rem;
                 line-height: 1.8;
-                color: #ccc;
+                color: #53424C;
                 padding: 1rem 0;
             }
 /*BLOGS ENDS HERE*/
